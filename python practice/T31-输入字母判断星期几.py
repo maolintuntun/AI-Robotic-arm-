@@ -1,0 +1,40 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 20 10:31:18 2017
+
+@author: lenovo
+"""
+
+letter = input("please input:")
+#while letter  != 'Y':
+if letter == 'S':
+    print ('please input second letter:')
+    letter =input("please input:")
+    if letter == 'a':
+        print ('Saturday')
+    elif letter  == 'u':
+        print ('Sunday')
+    else:
+        print ('data error')
+    
+elif letter == 'F':
+    print ('Friday')
+    
+elif letter == 'M':
+    print ('Monday')
+    
+elif letter == 'T':
+    print ('please input second letter')
+    letter = input("please input:")
+ 
+    if letter  == 'u':
+        print ('Tuesday')
+    elif letter  == 'h':
+        print ('Thursday')
+    else:
+        print ('data error')
+        
+elif letter == 'W':
+    print ('Wednesday')
+else:
+    print ('data error')
